@@ -26,8 +26,6 @@ header {
 .logoimg {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
-    background-color: #b28756;
 }
 .menu {
     flex: 1;
