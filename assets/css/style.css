@@ -472,4 +472,17 @@ header {
 
 
 
-
+#clients{
+    border-top: 1px solid #ccc;
+    box-shadow: 0px 1px 5px #aaa;
+}
+.section-clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-clients img:nth-child(3),
+.section-clients img:nth-child(6) {
+    width: 90px;
+    height: 40px;
+}
