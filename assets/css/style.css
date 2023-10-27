@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Montserrat', Helvetica, sans-serif, Arial;
     font-size: 13px;
-    scroll-behavior: smooth;
     overflow-x: hidden;
     height: 1000vh;
 }
@@ -397,3 +397,79 @@ header {
 .section-team--social a:hover {
     background-color: #b28756;
 }
+
+
+
+
+.section-testimonials {
+    overflow: hidden;
+    max-width: 650px;
+    margin: auto;
+}
+.section-testimonials .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+.section-testimonials .slide {
+    width: 650px;
+    height: 100%;
+    display: inline-block;
+}
+.section-testimonials .slidearea {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+.section-testimonials--avatar {
+    width: 120px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.section-testimonials--name {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.section-testimonials--role {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.section-testimonials .quote {
+    width: 28px;
+    height: auto;
+    margin: auto;
+}
+.section-testimonials p {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 23px;
+    color: #7e7e7e;
+    font-size: 14px;
+}
+#testimonials .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#testimonials .sliders-pointers .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#testimonials .pointer.active {
+    background-color: #b28756;
+}
+
+
+
+
