@@ -709,3 +709,72 @@ header {
     text-align: center;
     line-height: 23px;
 }
+
+
+
+
+
+#share {
+    padding: 10px 0 ;
+    border-bottom: 0.5px solid #ddd;
+}
+.social-media--posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.post-share {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-right: 50px;
+}
+.post-share img {
+    margin-right: 10px;
+}
+.post-share strong {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #aaa;
+}
+.post-social {
+    display: flex;
+    align-items: center;
+}
+.social-media--area {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    padding: 10px;
+}
+.social-media--area .round {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.social-media--area:nth-child(1) .round {
+    background-color: #34C5F1;
+}
+.social-media--area:nth-child(2) .round {
+    background-color: #117CB4;
+}
+.social-media--area:nth-child(3) .round {
+    background-color: #346296;
+}
+.social-media--area:nth-child(4) .round {
+    background-color: #E64137;
+}
+.social-media--area:nth-child(5) .round {
+    background-color: #B61B29;
+}
+.social-media--area small {
+    color: #999;
+    font-weight: bold;
+}
