@@ -1,4 +1,7 @@
 let formInputs = document.querySelectorAll('form input');
+let menuOpener = document.querySelector('.menu-opener');
+
+menuOpener.addEventListener('click', showMenuMobile);
 
 formInputs.forEach((input) => {
     input.addEventListener('focus', changeStyleFocus);
@@ -28,3 +31,15 @@ function changeStyleBlur(event) {
     }
     
 }
+
+function showMenuMobile() {
+    let navDisplay = document.querySelector('.menu nav');
+    console.log(navDisplay);
+    console.log(window.clientWidth);
+    if (navDisplay.style.display !== 'block') {
+        navDisplay.style.display = 'block';
+    } else {
+        navDisplay.style.display = 'none';
+    }
+    
+};
